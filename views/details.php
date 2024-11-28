@@ -1,6 +1,6 @@
 <?php
 include("../database/connect.php");
-include("../controllers/controllers.php");
+include("../controllers/userController.php");
 
 // HARUS DITAMBAG KETIKA MENGGUNAKAN SESSION
 session_start();

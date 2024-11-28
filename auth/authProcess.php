@@ -1,6 +1,5 @@
 <?php
 require('../database/connect.php');
-session_start();
 function register($request)
 {
     global $conn;
