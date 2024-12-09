@@ -2,8 +2,6 @@
 include("../database/connect.php");
 include("../controllers/userController.php");
 
-session_start(); // HARUS DITAMBAH KETIKA MENGGUNAKAN SESSION
-
 // REDIRECT USER YANG BELOM LOGIN KE KE LOGIN/REGISTER
 if (!isset($_SESSION['login'])) {
     header('location: ../auth/login.php');
